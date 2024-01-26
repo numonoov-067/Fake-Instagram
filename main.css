@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EFA45F;
+    width: 100%;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white_box {
+    background-color: #fff;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    width: 1021px;
+    height: 669px;
+    flex-shrink: 0;
+    /* margin: 100px auto; */
+    /* padding: 24px 15px 10px 114px; */
+}
+.left__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    width: 281px;
+    height: 200px;
+    background-color: #FCEAD0;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 82.27px;
+    /* padding-left: 83px;
+    padding-right: 84px; */
+    margin-bottom: 11px;
+}
+.box2 {
+    width: 281px;
+    height: 200px;
+    background-color: #FCEAD0;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 82.27px;
+    /* padding-left: 83px;
+    padding-right: 84px; */
+    margin-bottom: 11px;
+}
+.box3 {
+    width: 281px;
+    height: 200px;
+    background-color: #FCEAD0;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 82.27px;
+    padding-left: 83px;
+    margin-bottom: 11px;
+    padding-right: 84px;
+}
+.follow{
+    border-radius: 40px;
+    border: 10px solid #7C501B;
+    background: #7C4D15;
+    font-size: 30px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+}
+.message {
+    border-radius: 40.133px;
+    border: 5.017px solid #7C501B;
+    background: #FFF;
+    color: #7C501B;
+    font-size: 33.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 5px;
+}
+.txt {
+    padding-top: 15px;
+}
+.text {
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.right__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
